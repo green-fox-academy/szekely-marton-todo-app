@@ -33,7 +33,7 @@ public class Main {
     List showlist = new List();
     System.out.println("Please enter a command: ");
     Scanner myScanner = new Scanner(System.in);
-    if (myScanner.next().equals("-l")) {
+    if (myScanner.next().equals("jjjjj")) {
 
       showlist.getList();
     }

@@ -21,7 +21,7 @@ public class AddsANewTask extends List {
     String ListElement = UserText.next();
 
     try {
-      String filename = "MyText.txt";
+      String filename = "/Users/Ezzo/Desktop/greenfox/szekely-marton-todo-app/MyText.txt";
       FileWriter fw = new FileWriter(filename, true);
       fw.write("\n" + ListElement);
       fw.close();
